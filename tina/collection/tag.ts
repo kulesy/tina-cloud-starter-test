@@ -13,6 +13,12 @@ const Tag: Collection = {
       isTitle: true,
       required: true,
     },
+    {
+      type: "string",
+      label: "Name2",
+      name: "name2",
+      list: true,
+    },
   ],
 };
 
